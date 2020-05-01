@@ -1,0 +1,85 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.newsletterform {
+  color: #666666;
+  border: 1px solid #666666;
+  padding: 10px;
+  border-radius: 3px; 
+  position: relative;
+  z-index: 11
+ 
+}
+a {
+  color: #3CB878
+}
+.newsletterform h2 {
+  margin-top: 0;
+}
+main {
+  width: 600px;
+  margin: 0 auto;
+  }
+.text {
+  width: 100%;
+ box-sizing: border-box;
+  height: 30px;
+  margin: 0 0 5px;
+}  
+.submit   {
+  width: 100%;
+  box-sizing: border-box;
+  background: #3cb878;
+  border: 0;
+  color: white;
+  height: 30px;
+  margin: 0 0 10px;
+  font-size: 15px;
+  cursor: pointer;
+ 
+}
+.exitbutton {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  cursor: pointer;
+}
+.questionbutton {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 20px;
+  background: #3bc878;
+  width: 50px;
+  height: 50px;
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 10;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 50px;
+  
+}
+.features {
+  background: #3cb878;
+    padding: 20px;
+  margin: 10px 0;
+      
+}
+.features p {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0;
+ 
+ 
+}
+.keyfeatures {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap
+  align-items: strech
+    
+}
